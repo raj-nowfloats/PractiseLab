@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class Facebook extends LabBase {
 
     @Test
-    public void testGoogleTitle(){
+    public void testFacebookTitle(){
 
         driver.get(prop.getProperty("url"));
         String title = driver.getTitle();
