@@ -12,7 +12,7 @@ public class Test001_GoogleTitle extends LabBase {
         driver.get(prop.getProperty("url"));
         String title = driver.getTitle();
 
-        Assert.assertEquals(title,"Google");
+        Assert.assertEquals(title,"Facebook – log in or sign up");
         System.out.println("Title is : "+title);
     }
 }
