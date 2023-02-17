@@ -4,7 +4,7 @@ import Base.LabBase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Test001_GoogleTitle extends LabBase {
+public class Facebook extends LabBase {
 
     @Test
     public void testGoogleTitle(){
